@@ -857,13 +857,13 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^13.0.0"
 
-"@kaltura-player/frameworks@file:../kaltura-frameworks":
+"@kaltura-player/frameworks@file:../../kaltura-player-youi/kaltura-frameworks":
   version "1.0.0"
 
-"@kaltura-player/video-component@file:../kaltura-player-video-component":
+"@kaltura-player/video-component@file:../../kaltura-player-youi/kaltura-player-video-component":
   version "1.0.0"
   dependencies:
-    "@kaltura-player/frameworks" "file:../../../../Library/Caches/Yarn/v6/npm-@kaltura-player-video-component-1.0.0-b46a79f4-7eea-4777-a931-5b04809cd337-1607461892781/node_modules/@kaltura-player/kaltura-frameworks"
+    "@kaltura-player/frameworks" "file:../../../../Library/Caches/Yarn/v6/npm-@kaltura-player-video-component-1.0.0-dacc0b19-2868-487f-957e-ef252635f860-1609947102112/node_modules/@kaltura-player/kaltura-frameworks"
 
 "@react-native-community/cli-platform-android@^2.6.0", "@react-native-community/cli-platform-android@^2.9.0":
   version "2.9.0"
@@ -1011,10 +1011,10 @@
   resolved "https://youi.jfrog.io/youi/api/npm/jspkg/@youi/babel-plugin-react-native-youi/-/@youi/babel-plugin-react-native-youi-1.0.4.tgz#2a46d4046670cfb2e69fcce6ce55d99f91a20f74"
   integrity sha1-KkbUBGZwz7Lmn8zmzlXZn5GiD3Q=
 
-"@youi/react-native-youi@6.2.0":
-  version "6.2.0"
-  resolved "https://youi.jfrog.io/youi/api/npm/jspkg/@youi/react-native-youi/-/@youi/react-native-youi-6.2.0.tgz#4814dcc8fd6bc477b496689fa17ae95f8b71a4cb"
-  integrity sha1-SBTcyP1rxHe0lmifoXrpX4txpMs=
+"@youi/react-native-youi@6.2.0-kaltura1":
+  version "6.2.0-kaltura1"
+  resolved "https://youi.jfrog.io/youi/api/npm/jspkg/@youi/react-native-youi/-/@youi/react-native-youi-6.2.0-kaltura1.tgz#fe1cae9aa27c4dc1505052d6b3f1b5195c10446b"
+  integrity sha1-/hyumqJ8TcFQUFLWs/G1GVwQRGs=
   dependencies:
     "@babel/core" "7.0.0"
     create-react-class "^15.6.3"
