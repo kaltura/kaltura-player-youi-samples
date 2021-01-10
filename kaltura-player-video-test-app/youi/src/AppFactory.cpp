@@ -2,7 +2,7 @@
 #include "AppFactory.h"
 #include "App.h"
 
-#define APP_NAME "kaltura-player-video-test-app"
+#define APP_NAME "kalturaplayeryouidemo"
 
 #if defined(YI_PS4) || defined(YI_XBOX_360) || defined(YI_PS3)
 #    define APP_WIDTH (1920)
