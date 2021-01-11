@@ -56,7 +56,7 @@ android {
             manifest.srcFile "@YI_MANIFEST_FILEPATH@"
             assets.srcDirs = [ @YI_ASSET_DIRS@ ]
             @YI_JAVA_SOURCE_DIRS@
-            res.srcDirs = [ "@CMAKE_CURRENT_SOURCE_DIR@/android/modules/@YI_PROJECT_NAME@/src/main/res" ]
+            @YI_RES_DIRS@
         }
         @YI_JNI_LIBS_DIRS_LISTS@
     }
