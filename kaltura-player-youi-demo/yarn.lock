@@ -857,13 +857,13 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^13.0.0"
 
-"@kaltura-player/frameworks@file:../../kaltura-player-youi/kaltura-frameworks":
+"@kaltura-player/frameworks@file:../../kaltura-player-youi/kaltura-player-frameworks":
   version "1.0.0"
 
 "@kaltura-player/video-component@file:../../kaltura-player-youi/kaltura-player-video-component":
   version "1.0.0"
   dependencies:
-    "@kaltura-player/frameworks" "file:../../../../Library/Caches/Yarn/v6/npm-@kaltura-player-video-component-1.0.0-dacc0b19-2868-487f-957e-ef252635f860-1609947102112/node_modules/@kaltura-player/kaltura-frameworks"
+    "@kaltura-player/frameworks" "file:../../../../Library/Caches/Yarn/v6/npm-@kaltura-player-video-component-1.0.0-b6f43e01-9f46-4106-b6a9-19bfa59e8098-1610371390260/node_modules/@kaltura-player/kaltura-player-frameworks"
 
 "@react-native-community/cli-platform-android@^2.6.0", "@react-native-community/cli-platform-android@^2.9.0":
   version "2.9.0"
