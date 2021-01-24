@@ -839,9 +839,9 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^13.0.0"
 
-"@kaltura-player/video-component@https://github.com/kaltura/kaltura-player-youi#seperateTestAppAndPlayerCode":
+"@kaltura-player-youi/video-component@https://github.com/kaltura/kaltura-player-youi#v1.0.0":
   version "1.0.0"
-  resolved "https://github.com/kaltura/kaltura-player-youi#49c5dbeb28b864ac69e54359e1d9f304c8406937"
+  resolved "https://github.com/kaltura/kaltura-player-youi#5b5de71c71ad2c314aa54dfce23b1f814852bdd8"
 
 "@react-native-community/cli-platform-android@^2.6.0", "@react-native-community/cli-platform-android@^2.9.0":
   version "2.9.0"
