@@ -55,7 +55,7 @@ android {
         main {
             manifest.srcFile "@YI_MANIFEST_FILEPATH@"
             assets.srcDirs = [ @YI_ASSET_DIRS@ ]
-            java.srcDirs = [ "@CMAKE_CURRENT_SOURCE_DIR@/../node_modules/@kaltura-player/video-component/android/modules/KalturaPlayer/src/main/java/" ] 
+            java.srcDirs = [ "@CMAKE_CURRENT_SOURCE_DIR@/../node_modules/@kaltura-player-youi/video-component/android/modules/KalturaPlayer/src/main/java/" ] 
             @YI_RES_DIRS@
         }
         @YI_JNI_LIBS_DIRS_LISTS@

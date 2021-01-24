@@ -7,7 +7,7 @@
 		"test": "jest"
 	},
 	"dependencies": {
-		"@kaltura-player/video-component": "file:../../kaltura-player-youi",
+		"@kaltura-player-youi/video-component": "https://github.com/kaltura/kaltura-player-youi#v1.0.0",
 		"@youi/react-native-youi": "6.2.0-kaltura1",
 		"@youi/babel-plugin-react-native-youi": "1.0.4",
 		"react": "16.8.6",
