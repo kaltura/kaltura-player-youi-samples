@@ -11,7 +11,7 @@ import {
   TouchableOpacity
 } from 'react-native';
 
-import KalturaVideo from "@kaltura-player/video-component/KalturaVideo";
+import KalturaVideo from "@kaltura-player-youi/video-component/KalturaVideo";
 import VideoGallery from './VideoGallery';
 
 export default class YiReactApp extends Component {
