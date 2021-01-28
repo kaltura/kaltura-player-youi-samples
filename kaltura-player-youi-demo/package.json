@@ -8,7 +8,7 @@
 	},
 	"dependencies": {
 		"@kaltura-player-youi/video-component": "https://github.com/kaltura/kaltura-player-youi#v1.0.0",
-		"@youi/react-native-youi": "6.2.0-kaltura1",
+		"@youi/react-native-youi": "6.3.0",
 		"@youi/babel-plugin-react-native-youi": "1.0.4",
 		"react": "16.8.6",
 		"react-native": "0.60.6"

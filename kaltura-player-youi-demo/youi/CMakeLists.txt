@@ -70,6 +70,8 @@ include("${CMAKE_CURRENT_SOURCE_DIR}/build/NativeModules.cmake" OPTIONAL)
 # minimal effort.
 include("${CMAKE_CURRENT_SOURCE_DIR}/SourceList.cmake")
 
+yi_status_debug("NATIVEMODULES_INCLUDES: ${YI_NATIVEMODULES_INCLUDES} NATIVEMODULES SRC: ${YI_NATIVEMODULES_SOURCE} ${YI_NATIVEMODULES_HEADERS}")
+
 # Locating the You.i Engine is now done via the 'find_package' command. We first set the version of the engine that
 # we want to look for, using the PACKAGE_FIND_VERSION variable that is used within the 'find_package' flow.
 #
@@ -214,6 +216,10 @@ yi_configure_instrumented_build(TARGET ${PROJECT_NAME})
 
 include(Modules/YiConfigureLogging)
 yi_configure_logging(TARGET ${PROJECT_NAME})
+
+
+include(Modules/YiConfigureOptionalModules)
+yi_configure_optional_modules(TARGET ${PROJECT_NAME})
 
 # === START OF COMPILER SETUP =================================================
 
