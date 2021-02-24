@@ -37,7 +37,9 @@ const DATA = [
                 "plugins": {
                     "ima": {},
                     "youbora": {
-                        "accountCode": "kalturatest"
+                        "accountCode": "kalturatest",
+                        "parseManifest": true,
+                        "parseCdnNode": false,
                     }
                 }
             }
@@ -86,6 +88,8 @@ const DATA = [
                         "accountCode": "kalturatest",
                         "username": "aaa",
                         "userEmail": "aaa@gmail.com",
+                        "parseManifest": true,
+                        "parseCdnNode": false,
                         "userType": "paid",       // optional any string - free / paid etc.
                         "houseHoldId": "qwerty",   // optional which device is used to play
                         "httpSecure": true,        // youbora events will be sent via https
@@ -116,6 +120,16 @@ const DATA = [
                             //     "enableDebugMode": false
                             // },
                             "youbora": {
+                                "accountCode": "kalturatest",
+                                "username": "aaa",
+                                "userEmail": "aaa@gmail.com",
+                                "parseManifest": true,
+                                "parseCdnNode": false,
+                                "userType": "paid",       // optional any string - free / paid etc.
+                                "houseHoldId": "qwerty",   // optional which device is used to play
+                                "httpSecure": true,        // youbora events will be sent via https
+                                "appName": "YouiBridgeTesdtApp",
+                                "appReleaseVersion": "v1.0.0",
                                 "extraParam1": "param1",
                                 "extraParam2": "param2"
                             }
