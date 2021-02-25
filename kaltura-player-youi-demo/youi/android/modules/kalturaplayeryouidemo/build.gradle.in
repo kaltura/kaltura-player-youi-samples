@@ -129,7 +129,7 @@ dependencies {
     //implementation 'com.google.android.exoplayer:extension-mediasession:2.11.1'
     implementation 'com.google.android.gms:play-services-ads:15.0.1'
 
-    def kalturaPlaykitVersion = '4.11.1'
+    def kalturaPlaykitVersion = '4.12.0'
 
     api "com.kaltura.playkit:broadpeakplugin:$kalturaPlaykitVersion"
     implementation "com.kaltura.playkit:imaplugin:$kalturaPlaykitVersion"
